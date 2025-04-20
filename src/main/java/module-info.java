@@ -10,6 +10,8 @@ module com.example.radio {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires org.xerial.sqlitejdbc;
+    requires java.desktop;
 
     opens com.example.radio to javafx.fxml;
     exports com.example.radio;
